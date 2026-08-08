@@ -1,0 +1,23 @@
+{
+  "model": "Word + character TF-IDF LinearSVC ensemble",
+  "alpha_word": 0.85,
+  "alpha_char": 0.15000000000000002,
+  "decision_threshold": 0.26795140953671065,
+  "public_test_accuracy": 0.77,
+  "public_test_balanced_accuracy": 0.77,
+  "public_test_confusion_matrix": [
+    [
+      163,
+      37
+    ],
+    [
+      55,
+      145
+    ]
+  ],
+  "python_version": "3.13.5",
+  "pandas_version": "2.2.3",
+  "numpy_version": "2.3.5",
+  "scikit_learn_version": "1.8.0",
+  "checkpoint_file": "sentiment_ensemble.joblib"
+}
